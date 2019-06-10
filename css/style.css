@@ -1,0 +1,286 @@
+.wrapper {
+  font-family: 'Lato', sans-serif;
+  min-width: 1200px;
+  width: 100%;
+}
+
+.header {
+  background-color: #fff;
+  position: fixed;
+  width: 100%;
+}
+
+.main {
+  background-color: #f2f2f2;
+}
+
+.footer {
+  background-color: #74cfae;
+}
+
+.section_green {
+  background-color: #74cfae;
+}
+
+.section_dark-gray {
+  background-color: #4e4e4e;
+}
+
+.inner {
+  margin: 0 auto;
+  width: 1100px;
+}
+
+@media screen and (min-width:768px) and ( max-width:1199px) {
+  .inner {
+    margin: 0 auto;
+    width: 97%;
+  }
+}
+
+@media screen and ( max-width:767px) {
+  .inner {
+    margin: 0 auto;
+    width: 97%;
+  }
+}
+
+.clearfix:after {
+  clear: both;
+  content: "";
+  display: block;
+}
+
+/* ヘッダー */
+.header_item {
+  padding: 15px 0;
+}
+
+.header_item.icon_box {
+  float: left;
+}
+
+.my-gray {
+  color: #4e4e4e;
+}
+
+.header_item.contact-btn_box {
+  float: right;
+  font-size: 12px;
+}
+
+.contact-btn {
+  display: inline-block;
+  border: none;
+  padding: 14px 12px;
+  color: #fff;
+  background-color: #74cfae;
+  transition: 0.3s;
+}
+
+.contact-btn:hover {
+  color: #333;
+}
+
+/* メイン */
+.main_title_box {
+  padding: 250px 0;
+  margin: 0 auto;
+}
+
+.main_title {
+  font-family: 'Raleway', sans-serif;
+  font-size: 90px;
+  font-weight: 700;
+  color: #74cfae;
+  text-align: center;
+}
+
+.sub_title {
+  font-family: 'Raleway', sans-serif;
+  font-size: 30px;
+  color: #c0c0c0;
+  padding-top: 20px;
+  text-align: center;
+}
+
+/* みどりの部分*/
+.section_green--inner {
+  padding-top: 50px;
+}
+@media screen and (min-width:768px) and ( max-width:1199px) {
+  .section_green--inner {
+    padding-top: 50px;
+    padding-bottom: 25px;
+  }
+}
+
+.what_we_can_do_box {
+  color: #fff;
+}
+
+.section_green_margin {
+  display: inline-block;
+  font-size:0;
+  margin-left: 100px;
+}
+
+@media screen and (min-width:768px) and ( max-width:1199px) {
+  .section_green_margin {
+    text-align: center;
+  }
+}
+@media screen and ( max-width:767px) {
+  .section_green_margin {
+    text-align: center;
+  }
+}
+
+.section_green_margin.img_iphone {
+  width: 20%;
+}
+
+.section_green_margin.what_we_can_do_box {
+  vertical-align: top;
+  width: 60%;
+}
+
+.title {
+  font-family: 'Raleway', sans-serif;
+  font-size: 24px;
+  text-align: center;
+}
+.text {
+  font-size: 20px;
+  text-align: center;
+  line-height: 30px;
+}
+
+.what_we_can_do_box.text {
+  margin-top: 35px;
+}
+
+/* 真ん中しろ */
+.main-inner_latest-work {
+  padding-top: 60px;
+  padding-bottom: 70px;
+}
+.main-inner_latest-work.title {
+  color: #333;
+  padding: 0;
+  padding-bottom: 40px;
+}
+
+.main-inner_latest-work.images {
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+.main-inner_latest-work.image {
+  opacity: 0.7;
+  transition: .3s;
+  padding: 0;
+  margin-left: 100px;
+}
+.main-inner_latest-work.image:hover {
+  opacity: 1;
+}
+.main-inner_latest-work.image:nth-child(n+4) {
+  margin-top: 80px;
+}
+
+.main-inner_latest-work.image:nth-child(3n+1) {
+  margin-left: 0;
+}
+
+.main-inner_latest-work_text_box {
+  text-align: center;
+  padding-top: 90px; 
+  padding-bottom: 0;
+}
+
+.main-inner_latest-work_text {
+  color: #333;
+  display: inline-block;
+  width: 60%;
+  margin-right: 90px;
+}
+
+.email_me-btn {
+  transition: .3s;
+  display: inline-block;
+  font-size: 12px;
+  padding: 14px 20px;
+  color: #fff;
+  background-color: #74cfae;
+  vertical-align: top;
+}
+
+.email_me-btn:hover {
+  color: #333;
+}
+
+
+/*  section gray*/
+.section_dark-gray--inner.contents_box {
+  padding-top: 70px;
+  padding-bottom: 100px;
+}
+
+.contents_box.title {
+  color: #c0c0c0;
+}
+
+.section_dark-gray--inner.images {
+  padding-top: 70px;
+  text-align: center;
+}
+
+.circle_box {
+  display: inline-block;
+  margin-right: 180px;
+  font-size: 16px;
+}
+
+.circle_box:last-child {
+  margin-right: 0;
+}
+
+.circle_text {
+  text-align: center;
+  color: #c0c0c0;
+  margin-top: 15px;
+}
+
+/* アイコン枠 */
+.main-inner_sns-icon {
+  padding: 200px 0;
+}
+
+.my-green {
+  color: #74cfae;
+}
+
+.sns-icon_contents_box {
+  text-align: center;
+}
+
+.sns-icon_contents_box .sns-icon {
+  display: inline-block;
+  width: 185px;
+  padding: 10px 0;
+  cursor: pointer;
+  transition: .3s;
+}
+
+.sns-icon_contents_box .sns-icon:hover {
+  background-color: #fff;
+}
+
+/* フッター */
+.footer_created_by {
+  color: #fff;
+  float: right;
+  padding-top: 20px;
+  padding-bottom: 25px; 
+}
